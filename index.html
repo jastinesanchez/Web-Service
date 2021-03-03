@@ -96,7 +96,7 @@ function bondJSON(data){
 
 	});
 
-
+/*
 }
 function bondJSON(data){
 //JSON processing data goes here
@@ -114,7 +114,7 @@ function bondJSON(data){
 
         //adding the attributes so then it can recall the Info?
 		let text = `
-                <b>Member:</b>: ${item.Member}<br />
+                <b>Member:</b>: ${item.Members}<br />
                 <b>Name (last, first)</b>: ${item.Name}<br />
                 <b>Stage Name</b>: ${item.StageName}<br />
                 <b>Birthday</b>: ${item.Birthday}<br />
@@ -130,7 +130,7 @@ function bondJSON(data){
 	
 
 
-	});
+	}); */
 
 
 }
@@ -141,7 +141,10 @@ function bondJSON(data){
 	<h1>Bond Web Service</h1>
 		<a href="year" class="category">Bond Films By Year</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
+        <a href="Seventeen" class="category">Seventeen Memebers</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
+        <h3 id="SeventeenMembers">Title Will Go Here</h3>
+        <div id="Members"></div>
 		<div id="films">
 		</div>
 		<div id="output">Results go here</div>
