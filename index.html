@@ -120,7 +120,7 @@ function bondJSON(data){
 
         //adding the attributes so then it can recall the Info?
 		let text = `
-                <b>Member:</b>: ${item.Members}<br />
+                <b>Member:</b>: ${item.Member}<br />
                 <b>Name (last, first)</b>: ${item.Name}<br />
                 <b>Stage Name</b>: ${item.StageName}<br />
                 <b>Birthday</b>: ${item.Birthday}<br />
@@ -128,7 +128,7 @@ function bondJSON(data){
                 <b>Unit</b>: ${item.Unit}<br />
                 <b>Zodiac Sign</b>: ${item.ZodiacSign}<br />
                 <b>Apperance</b>: ${item.Image}<br />
-                <div class="pic"><img src="thumbnails/a-view-to-a-kill.jpg"></div>
+
 
 		`;
         $("<div></div>").html(text).appendTo("#Members");
