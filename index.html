@@ -113,7 +113,7 @@ function bondJSON(data){
     $("#members").html("");
 
     //add title t h3 element
-    $("#membersseventeen").html(data.title);
+    $("#memberstitle").html(data.title);
     
     $.each(data.Members,function(i,item){ //item is index here
 	
@@ -147,11 +147,10 @@ function bondJSON(data){
 	<h1>Bond Web Service</h1>
 		<a href="year" class="category">Bond Films By Year</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
-        <br>
+        <br />
         <a href="members" class="category">Seventeen Memebers</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
-        <h3 id="SeventeenMembers">Seventeen Members</h3>
-        <div id="Members"></div>
+        <h3 id="SeventeenMembers">Seventeen Members</h3> 
 		<div id="films">
 		</div>
 		<div id="output">Results go here</div>
