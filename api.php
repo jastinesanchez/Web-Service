@@ -31,6 +31,9 @@ if(isset($_REQUEST['cat']))
 		case "box":
 			include('data/bond-box-office.js'); //"box" orders by box office results
 			break;
+		case "members":
+			include('data/Seventeen-members.js'); //this is for seventeen results
+			break;
 		default:
 			include('data/bond-year.js'); //default orders by year
 	}

@@ -16,6 +16,12 @@ function serverSetup(server,cat){
    }else{//server is HTML only - simulate web service
        if(cat == "box"){//box office
            url = "data/bond-box-office.js";
+
+        }
+        if(cat == "members"){//seventeen members
+            url = "data/Seventeen-members.js";
+        
+
        }else{//year
            url = "data/bond-year.js"; 
        }
@@ -141,9 +147,10 @@ function bondJSON(data){
 	<h1>Bond Web Service</h1>
 		<a href="year" class="category">Bond Films By Year</a><br />
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
+        <br>
         <a href="Seventeen" class="category">Seventeen Memebers</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
-        <h3 id="SeventeenMembers">Title Will Go Here</h3>
+        <h3 id="SeventeenMembers">Seventeen Members</h3>
         <div id="Members"></div>
 		<div id="films">
 		</div>
