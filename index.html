@@ -62,13 +62,14 @@ function loadAJAX(cat)
        type:"GET",
        dataType: "json",
        url:url,
-       success:seventeenJSON
+       success:seventeenJSON,
 
 
        error: function(xhr, status, error){
          var errorMessage = xhr.status + ': ' + xhr.statusText
          alert('Error - ' + errorMessage);
 
+       }
    });
 }
 
@@ -118,7 +119,7 @@ function seventeenJSON(data){
     //clears previous films from previous click
     $("#members").html("");
 
-    //add title t h3 element
+    //add title t h3 
     $("#membersseventeen").html(data.title);
     
     $.each(data.Members,function(i,item){ //item is index here
