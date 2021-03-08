@@ -9,7 +9,7 @@
 				"Position":"Leader, Hip-hop Leader, Main Rapper, Sub ",
                 "Unit": "Hip-hop Unit",
 				"ZodiacSign":"Leo",
-				"Image":"images/Seungcheol.jpg"
+				"Image":"Seungcheol.jpg"
 			  },
               {
                 "Member":2,
@@ -19,7 +19,7 @@
 				"Position":"Lead Vocalist, Visual",
                 "Unit": "Vocal Unit",
 				"ZodiacSign":"Libra",
-				"Image":"images/Jeonghan.jpg"
+				"Image":"Jeonghan.jpg"
 			  },
               {
                 "Member":3,
@@ -29,7 +29,7 @@
 				"Position":"Lead Vocalist, Visual",
                 "Unit": "Vocal Unit",
 				"ZodiacSign":"Capricorn",
-				"Image":"images/Joshua.jpg"
+				"Image":"Joshua.jpg"
 			  },
               {
                 "Member":4,
