@@ -20,7 +20,11 @@ function serverSetup(server,cat){
         }
         if(cat == "members"){//seventeen members
             url = "data/Seventeen-members.js";
+
+        }
         
+        if(cat == "units"){//seventeen members
+            url = "data/Seventeen-unit.js";
 
        }else{//year
            url = "data/bond-year.js"; 
@@ -118,6 +122,7 @@ function seventeenJSON(data){
 	
     //clears previous films from previous click
     $("#members").html("");
+    $("#units").html("");
 
     //add title t h3 
     $("#membersseventeen").html(data.title);
@@ -140,6 +145,7 @@ function seventeenJSON(data){
 		`;
        // alert(text);
         $("<div></div>").html(text).appendTo("#members");
+        $("<div></div>").html(text).appendTo("#units");
 
 	
 
@@ -157,10 +163,13 @@ function seventeenJSON(data){
 		<a href="box" class="category">Bond Films By International Box Office Totals</a>
         <br />
         <a href="members" class="category">Seventeen Members</a>
+        <a href="units" class="category">Seventeen Members by Units</a>
 		<h3 id="filmtitle">Title Will Go Here</h3>
         <h3 id="SeventeenMembers">Seventeen Members</h3> 
         <div id="members">
 		</div>
+        <div id="units">
+        </div>
 		<div id="films">
 		</div>
 		<div id="output">Results go here</div>

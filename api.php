@@ -34,6 +34,11 @@ if(isset($_REQUEST['cat']))
 		case "members":
 			include('data/Seventeen-members.js'); //this is for seventeen results
 			break;
+
+		case "units":
+			include('data/Seventeen-units.js'); //this is for seventeen results
+			break;
+
 		default:
 			include('data/bond-year.js'); //default orders by year
 	}
